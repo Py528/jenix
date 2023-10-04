@@ -1,4 +1,4 @@
-# AI SaaS Platform with Next.js 13, React, Tailwind, Prisma, Stripe
+# AI SaaS Platform with Next.js 13, React, Tailwind
 
 ## Prerequisites
 
@@ -9,7 +9,7 @@
 ### Clone the Repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-ai-saas.git
+git@github.com:Py528/jenix.git
 ```
 
 ### Install Dependencies
@@ -36,18 +36,7 @@ REPLICATE_API_TOKEN=
 
 DATABASE_URL=
 
-STRIPE_API_KEY=
-STRIPE_WEBHOOK_SECRET=
-
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
-```
-
-### Setup Prisma
-
-Add a MySQL Database (e.g., PlanetScale) and apply database migrations:
-
-```shell
-npx prisma db push
 ```
 
 ### Start the App
